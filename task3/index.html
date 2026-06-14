@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TECHLYFE - Technology Blog</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            TECHLYFE
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">AI</a></li>
+
+                <li><a href="#">Software</a></li>
+
+                <li><a href="#">Hardware</a></li>
+
+                <li><a href="#">Cybersecurity</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="header-buttons">
+
+            <button id="themeToggle">
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="category">
+                FEATURED STORY
+            </span>
+
+            <h1 id="heroTitle">
+                EXPLORE THE FUTURE OF TECHNOLOGY
+            </h1>
+
+            <p id="heroText">
+
+                Stay updated with the latest trends in Artificial Intelligence,
+                Software Development, Cybersecurity, Hardware Innovations and
+                Emerging Technologies.
+
+            </p>
+
+            <button id="changeContentBtn">
+                Explore Future Tech
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/hero.jpg"
+                alt="Technology Hero">
+
+        </div>
+
+    </section>
+
+    <!-- TRENDING -->
+
+    <section class="trending-bar">
+
+        <h3>Trending Topics</h3>
+
+        <div class="trending-topics">
+
+            <span>GPT-6</span>
+
+            <span>Quantum Computing</span>
+
+            <span>Cybersecurity</span>
+
+            <span>Cloud Computing</span>
+
+            <span>Machine Learning</span>
+
+        </div>
+
+    </section>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- ARTICLES -->
+
+        <section class="latest-news">
+
+            <h2>Latest Technology News</h2>
+
+            <article class="news-card">
+
+                <img src="images/ai.jpg" alt="AI">
+
+                <div class="news-content">
+
+                    <span>Artificial Intelligence</span>
+
+                    <h3>AI Revolution Continues Across Industries</h3>
+
+                    <p>
+                        Artificial Intelligence is transforming industries,
+                        creating smarter solutions and improving productivity.
+                    </p>
+
+                    <button class="like-btn">
+                        👍 Like
+                    </button>
+
+                    <span class="like-count">
+                        0 Likes
+                    </span>
+
+                </div>
+
+            </article>
+
+            <article class="news-card">
+
+                <img src="images/software.jpg" alt="Software">
+
+                <div class="news-content">
+
+                    <span>Software Development</span>
+
+                    <h3>Top Programming Languages To Learn</h3>
+
+                    <p>
+                        Discover the technologies and programming languages
+                        dominating the software industry.
+                    </p>
+
+                    <button class="like-btn">
+                        👍 Like
+                    </button>
+
+                    <span class="like-count">
+                        0 Likes
+                    </span>
+
+                </div>
+
+            </article>
+
+            <article class="news-card">
+
+                <img src="images/hardware.jpg" alt="Hardware">
+
+                <div class="news-content">
+
+                    <span>Hardware</span>
+
+                    <h3>Future Processors Promise Better Performance</h3>
+
+                    <p>
+                        New processor technologies are pushing the limits of
+                        modern computing systems.
+                    </p>
+
+                    <button class="like-btn">
+                        👍 Like
+                    </button>
+
+                    <span class="like-count">
+                        0 Likes
+                    </span>
+
+                </div>
+
+            </article>
+
+            <article class="news-card">
+
+                <img src="images/cybersecurity.jpg" alt="Cybersecurity">
+
+                <div class="news-content">
+
+                    <span>Cybersecurity</span>
+
+                    <h3>Protecting Data In The Digital Age</h3>
+
+                    <p>
+                        Learn how organizations are improving security and
+                        protecting valuable information.
+                    </p>
+
+                    <button class="like-btn">
+                        👍 Like
+                    </button>
+
+                    <span class="like-count">
+                        0 Likes
+                    </span>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-card">
+
+                <h3>Popular Posts</h3>
+
+                <ul>
+
+                    <li>Future of Artificial Intelligence</li>
+
+                    <li>Best Coding Practices</li>
+
+                    <li>Cybersecurity Trends</li>
+
+                    <li>Quantum Computing Explained</li>
+
+                </ul>
+
+            </div>
+
+            <div class="sidebar-card">
+
+                <h3>Tech Video</h3>
+
+                <img src="images/video.jpg" alt="Video">
+
+                <p>
+                    Watch our latest technology breakdown.
+                </p>
+
+            </div>
+
+            <div class="sidebar-card">
+
+                <h3>Podcast</h3>
+
+                <img src="images/podcast.jpg" alt="Podcast">
+
+                <p>
+                    Weekly discussions with technology experts.
+                </p>
+
+            </div>
+
+            <div class="sidebar-card">
+
+                <h3>Newsletter</h3>
+
+                <p>
+                    Subscribe to receive technology updates.
+                </p>
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Enter your email">
+
+                <button id="subscribeBtn">
+                    Subscribe
+                </button>
+
+                <p id="subscribeMessage"></p>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- MORE STORIES -->
+
+    <section class="more-stories">
+
+        <h2>More Stories</h2>
+
+        <div class="stories-grid">
+
+            <div class="story">
+                Future of Robotics
+            </div>
+
+            <div class="story">
+                Blockchain Technology
+            </div>
+
+            <div class="story">
+                Space Technology
+            </div>
+
+            <div class="story">
+                Smart Devices
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>TECHLYFE</h3>
+
+                <p>
+                    Exploring technology one article at a time.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Categories</h3>
+
+                <p>AI</p>
+                <p>Software</p>
+                <p>Hardware</p>
+                <p>Cybersecurity</p>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>contact@techlyfe.com</p>
+
+                <p>+91 917xxxxx64</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 TECHLYFE. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
